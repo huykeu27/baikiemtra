@@ -1,0 +1,66 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.containerAll {
+  display: flex;
+}
+.wallet {
+  width: 30%;
+  background-color: #33cc00;
+  height: 100vh;
+  overflow-y: scroll;
+}
+.walletDetail {
+  width: 70%;
+  background: #cfcfcf;
+  overflow-y: scroll;
+}
+.income {
+  text-transform: capitalize;
+  background-color: #ffd09e;
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.expense {
+  text-transform: capitalize;
+  background-color: rgb(222, 85, 85);
+  display: flex;
+  justify-content: space-between;
+  padding: 12px;
+}
+.daily,
+.out,
+.in {
+  display: flex;
+  justify-content: space-between;
+  text-transform: capitalize;
+  padding: 12px;
+}
+.remain {
+  text-align: right;
+  padding: 12px;
+}
+.in-money {
+  color: #0000ff;
+}
+.out-money {
+  color: red;
+}
+.styleWallet {
+  cursor: pointer;
+  text-align: center;
+  text-transform: capitalize;
+  padding: 12px;
+}
+.function {
+  width: 25%;
+}
+.function button {
+  background-color: yellow;
+  width: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+}
